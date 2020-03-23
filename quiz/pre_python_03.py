@@ -11,3 +11,13 @@
 첫 번째(두 번째) 참가자의 승리입니다. or 비겼습니다.
 
 """
+import random
+first=random.randint(1,6)
+second=random.randint(1,6)
+
+if first==second:
+    print('비겼습니다.')
+elif first>second:
+    print('첫 번째 참가자의 승리입니다.')
+else:
+    print('두 번째 참가자의 승리입니다.')

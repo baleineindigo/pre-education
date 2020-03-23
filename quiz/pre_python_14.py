@@ -19,3 +19,16 @@ HELLO
 입력 형식이 잘못되었습니다.
 
 """
+a = "HELLO"
+if a == a.upper():
+    a1 = a.lower()
+    if a1 == a or a1.isalpha == False:
+        print('입력 형식이 잘못되었습니다')
+    else:
+        print(a1)
+elif a == a.lower():
+    a1 = a.upper()
+    if a1 == a or a1.isalpha == False:
+        print('입력 형식이 잘못되었습니다')
+    else:
+        print(a1)

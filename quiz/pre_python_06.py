@@ -27,3 +27,10 @@
 
 
 """
+for i in range(9):
+    if i < 5:
+        a = ' '*(4-i)+'★'*(i+1)
+        print(a)
+    else:
+        a = ' '*(i-4)+'★'*(9-i)
+        print(a)

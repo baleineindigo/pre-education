@@ -10,3 +10,30 @@
 <출력>
 150
 """
+
+first=float(input('첫 번째 수를 입력하세요 : '))
+second=float(input('두 번째 수를 입력하세요 : '))
+cal=input('어떤 연산을 하실 건가요? : ')
+
+if cal=='*':
+    result=first*second
+    print(result)
+elif cal=='**':
+    result=first**second
+    print(result)
+elif cal=='+':
+    result=first+second
+    print(result)
+elif cal=='-':
+    result=first-second
+    print(result)
+elif cal=='/':
+    result=first/second
+    print(result)
+elif cal=='//':
+    result=first//second
+    print(result)
+elif cal=='%':
+    result=first%second
+    print(result)
+

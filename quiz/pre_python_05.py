@@ -16,3 +16,11 @@
 5 * 9 = 45
 
 """
+
+a=int(input('출력할 단을 입력해주세요 : '))
+
+def gugudan(a):
+    for i in range(10):
+        print('{} * {} = {}'.format(a,i,a*i))
+
+gugudan(a)  

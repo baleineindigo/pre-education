@@ -14,13 +14,15 @@ False
 True
 '''
 
+
 def is_palindrome(a):
-    palin_orig=list(a)
-    palin_rev=list(reversed(a))
-    if palin_orig==palin_rev:
+    palin_orig = list(a)
+    palin_rev = list(reversed(a))
+    if palin_orig == palin_rev:
         return True
     else:
         return False
+
 
 print(is_palindrome("radio"))
 print(is_palindrome("토마토"))
